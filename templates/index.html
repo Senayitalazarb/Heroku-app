@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linear Regression App</title>
+</head>
+<body>
+    <h1>Linear Regression Prediction</h1>
+    <form action="/" method="POST">
+        <label for="feature1">Feature 1:</label>
+        <input type="number" step="any" id="feature1" name="feature1" required><br>
+
+        <label for="feature2">Feature 2:</label>
+        <input type="number" step="any" id="feature2" name="feature2" required><br>
+
+        <label for="feature3">Feature 3:</label>
+        <input type="number" step="any" id="feature3" name="feature3" required><br>
+
+        <label for="feature4">Feature 4:</label>
+        <input type="number" step="any" id="feature4" name="feature4" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction:</h2>
+    <p>{{ prediction }}</p>
+    {% endif %}
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html> -->
