@@ -1,0 +1,2 @@
+bot: python train.py
+bot: python app.py
