@@ -1,1 +1,2 @@
-web: python manage.py runserver 0.0.0.0:5000
+bot: python 3.9.7 train.py
+bot: python 3.9.7 app.py
